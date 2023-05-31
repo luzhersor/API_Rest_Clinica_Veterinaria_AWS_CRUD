@@ -12,7 +12,7 @@ La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clas
 * Lombok
 * MySQL Driver
 * Postman
-* NetBeans
+* IDE NetBeans
  
  ### Este programa permite realizar las siguientes consultas 
  * CRUD de las mascotas (Alta, Baja, Modificación, Lectura)
