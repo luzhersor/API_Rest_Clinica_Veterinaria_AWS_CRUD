@@ -29,7 +29,7 @@ La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clas
 ##### Clona o descarga el repositorio.
 ##### Importa el proyecto a tu IDE (NetBeans, Eclipse, Intellij)
 ##### Ejecuta mvn spring-boot:run desde la línea de comandos del IDE.
-##### Abre Postman e importa la colección para realizar las pruebas: [Colección Postman](https://github.com/luzhersor/Clinica_Veterinaria_CRUD/blob/main/ClinicaVeterinaria.postman_collection.json)
+##### Abre Postman e importa la colección para realizar las pruebas: [Postman Collection](https://github.com/luzhersor/Clinica_Veterinaria_CRUD/blob/main/ClinicaVeterinaria.postman_collection.json)
 ##### Al ejecutar la aplicación ya se habrán creado algunas mascotas y dueños.
 
   
