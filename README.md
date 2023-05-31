@@ -11,6 +11,7 @@ API de Clínica Veterinaría para realizar consultas sobre las mascotas y sus re
 * Lombok
 * MySQL Driver
 * Postman
+* NetBeans
  
  ### Este programa permite realizar las siguientes consultas 
  * CRUD de las mascotas (Alta, Baja, Modificación, Lectura)
@@ -21,5 +22,14 @@ API de Clínica Veterinaría para realizar consultas sobre las mascotas y sus re
  ### Endpoints Mascotas
   
  ### Endpoints Dueños
+ 
+ ### Instalación
+
+##### Clona o descarga el repositorio.
+##### Importa el proyecto a tu IDE (NetBeans, Eclipse, Intellij)
+##### Ejecuta mvn spring-boot:run desde la línea de comandos del IDE.
+##### Abre Postman e importa la colección para realizar las pruebas: [Colección Postman](https://drive.google.com/file/d/12f4H3BMD2JvJyeHAr0-5_8w92nykFL3k/view?usp=share_link)
+##### Al ejecutar la aplicación ya se habrán creado algunas mascotas y dueños.
+
   
   
