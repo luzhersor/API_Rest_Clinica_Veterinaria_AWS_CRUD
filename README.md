@@ -21,18 +21,18 @@ La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clas
  * Listado de datos combinados de la mascota y dueño (Patron DTO)
 
  ### EndPoints Mascotas
- GET      localhost:3500/mascotas/traer
- POST     localhost:3500/mascotas/crear
- DELETE   localhost:3500/borrar/{id_mascota}
- PUT      localhost:3500/mascotas/editar
- GET      localhost:3500/mascotas/mascoDTO
- GET      localhost:3500/mascotas/caniches
+ * GET      localhost:3500/mascotas/traer
+ * POST     localhost:3500/mascotas/crear
+ * DELETE   localhost:3500/borrar/{id_mascota}
+ * PUT      localhost:3500/mascotas/editar
+ * GET      localhost:3500/mascotas/mascoDTO
+ * GET      localhost:3500/mascotas/caniches
 
  ### EndPoints Duenos
- GET      localhost:3500/duenos/traer
- GET      localhost:3500/duenos/crear    
- DELETE   localhost:3500/duenos/borrar/{id_dueno}
- PUT      localhost:3500/duenos/editar
+ * GET      localhost:3500/duenos/traer
+ * GET      localhost:3500/duenos/crear    
+ * DELETE   localhost:3500/duenos/borrar/{id_dueno}
+ * PUT      localhost:3500/duenos/editar
 
  ### Instalación
 
