@@ -20,15 +20,11 @@ La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clas
  * Listado de todas las mascotas de especie "perro" y raza "caniche"
  * Listado de datos combinados de la mascota y dueño (Patron DTO)
 
- ### Endpoints Mascotas
-  
- ### Endpoints Dueños
- 
  ### Instalación
 
 ##### Clona o descarga el repositorio.
 ##### Importa el proyecto a tu IDE (NetBeans, Eclipse, Intellij)
-##### Ejecuta mvn spring-boot:run desde la línea de comandos del IDE.
+##### Ejecuta el archivo ClinicavetApplication.java desde tu IDE.
 ##### Abre Postman e importa la colección para realizar las pruebas: [Postman Collection](https://github.com/luzhersor/Clinica_Veterinaria_CRUD/blob/main/ClinicaVeterinaria.postman_collection.json)
 
   
