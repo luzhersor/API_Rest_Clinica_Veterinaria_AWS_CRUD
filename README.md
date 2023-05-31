@@ -1,5 +1,6 @@
 # Clinica_Veterinaria_CRUD
-API de Clínica Veterinaría para realizar consultas sobre las mascotas y sus respectivos dueños.
+API de Clínica Veterinaría con SpringBoot que conecta a una base de datos H2. 
+La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clases "Mascota" y "Dueño", así como otras operaciónes personalizadas.
 
 
  ### 🖥️ Tecnologías Utilizadas:
