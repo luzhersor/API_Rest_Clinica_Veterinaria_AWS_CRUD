@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "9aa58b28-4779-495a-8313-7e4652708669",
+		"name": "ClinicaVeterinaria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24134758"
+	},
+	"item": [
+		{
+			"name": "localhost:3500/mascotas/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Wiska\",\r\n    \"especie\": \"perro\",\r\n    \"raza\":\"negrita\",\r\n    \"color\": \"negro\",\r\n    \"unDueno\" :{\r\n        \"id_dueno\":1\r\n\r\n    }\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3500/mascotas/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "3500",
+					"path": [
+						"mascotas",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3500/duenos/crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"LuzMa\",\r\n    \"apellido\": \"Hernandez\",\r\n    \"celular\": \"5524503756\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3500/duenos/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "3500",
+					"path": [
+						"duenos",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3500/mascotas/mascoDTO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3500/mascotas/mascoDTO",
+					"host": [
+						"localhost"
+					],
+					"port": "3500",
+					"path": [
+						"mascotas",
+						"mascoDTO"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3500/mascotas/caniches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3500/mascotas/caniches",
+					"host": [
+						"localhost"
+					],
+					"port": "3500",
+					"path": [
+						"mascotas",
+						"caniches"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
