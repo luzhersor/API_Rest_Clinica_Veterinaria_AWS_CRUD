@@ -20,6 +20,19 @@ La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clas
  * Listado de todas las mascotas de especie "perro" y raza "caniche"
  * Listado de datos combinados de la mascota y dueño (Patron DTO)
 
+ ### EndPoints Mascotas
+ GET  localhost:3500/mascotas/traer
+ POST localhost:3500/mascotas/crear
+ DELETE   localhost:3500/borrar/{id_mascota}
+ PUT      localhost:3500/mascotas/editar
+ GET      localhost:3500/mascotas/mascoDTO
+ GET      localhost:3500/mascotas/caniches
+ 
+ 
+ 
+ ### EndPoints Duenos
+ 
+
  ### Instalación
 
 ##### Clona o descarga el repositorio.
