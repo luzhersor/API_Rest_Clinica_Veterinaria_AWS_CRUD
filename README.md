@@ -12,14 +12,14 @@ API de Clínica Veterinaría para realizar consultas sobre las mascotas y sus re
 * MySQL Driver
 * Postman
  
-  ### Consultas 
-  * CRUD de las mascotas
-  * CRUD de los dueños
-  * Listado de todas las mascotas de especie "perro" y raza "caniche"
-  * Listado de datos combinados de la mascota y dueño (Patron DTO)
+ ### Consultas 
+ * CRUD de las mascotas
+ * CRUD de los dueños
+ * Listado de todas las mascotas de especie "perro" y raza "caniche"
+ * Listado de datos combinados de la mascota y dueño (Patron DTO)
 
-  ### Endpoints Mascotas
+ ### Endpoints Mascotas
   
-  ### Endpoints Dueños
+ ### Endpoints Dueños
   
   
