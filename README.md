@@ -12,7 +12,7 @@ API de Clínica Veterinaría para realizar consultas sobre las mascotas y sus re
 * MySQL Driver
 * Postman
  
- ### Consultas 
+ ### Este programa permite realizar las siguientes consultas consultas 
  * CRUD de las mascotas
  * CRUD de los dueños
  * Listado de todas las mascotas de especie "perro" y raza "caniche"
