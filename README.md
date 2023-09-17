@@ -35,6 +35,9 @@ La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clas
  * DELETE   localhost:3500/duenos/borrar/{id_dueno}
  * PUT      localhost:3500/duenos/editar
 
+ ### AWS Elastic BeansTalk (AWS EB) Remote Server
+ Los endpoints para las solicitudes y respuestas son las mismas que en el servidor local
+
  ### Instalación
 
 ##### Clona o descarga el repositorio.
