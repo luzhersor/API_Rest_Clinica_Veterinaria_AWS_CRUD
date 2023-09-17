@@ -32,7 +32,7 @@ La API Rest permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las
 
  ### EndPoints Duenos  - Local Server
  * GET      localhost:3500/duenos/traer
- * GET      localhost:3500/duenos/crear    
+ * POST      localhost:3500/duenos/crear    
  * DELETE   localhost:3500/duenos/borrar/{id_dueno}
  * PUT      localhost:3500/duenos/editar
 
@@ -40,6 +40,7 @@ La API Rest permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las
  Los endpoints para las solicitudes y respuestas son las mismas que en el servidor local, solo se tiene que cambiar la parte inicial del link:
  * GET      clinica-veterinaria-env.eba-yvmi4iey.us-east-2.elasticbeanstalk.com/mascotas/traer
  * GET      clinica-veterinaria-env.eba-yvmi4iey.us-east-2.elasticbeanstalk.com/duenos/traer
+ * GET      clinica-veterinaria-env.eba-yvmi4iey.us-east-2.elasticbeanstalk.com/mascotas/caniches
 
  Considere que en el buscador/brower unicamente se pueden ejecutar requests del tipo GET, si desea realizar otro tipo de request es necesario
  utilizar Postman (POST, DELETE, PUT).
