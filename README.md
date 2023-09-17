@@ -1,7 +1,7 @@
 # Clinica_Veterinaria_CRUD
 ### API de Clínica Veterinaría con SpringBoot que conecta a una base de datos H2. 
 #### La API permite llevar el control de las mascotas y sus respectivos dueños.
-La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clases "Mascota" y "Dueño", así como otras operaciónes personalizadas.
+La API Rest permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clases "Mascota" y "Dueño", así como otras operaciónes personalizadas.
 
 
  ### 🖥️ Tecnologías Utilizadas:
@@ -22,7 +22,7 @@ La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clas
  * Listado de todas las mascotas de especie "perro" y raza "caniche"
  * Listado de datos combinados de la mascota y dueño (Patron DTO)
 
- ### EndPoints Mascotas
+ ### EndPoints Mascotas - Local Server
  * GET      localhost:3500/mascotas/traer
  * POST     localhost:3500/mascotas/crear
  * DELETE   localhost:3500/mascotas/borrar/{id_mascota}
@@ -30,14 +30,19 @@ La API permite realizar consultas CRUD(Cread, Read, Updated, Delete) de las clas
  * GET      localhost:3500/mascotas/mascoDTO
  * GET      localhost:3500/mascotas/caniches
 
- ### EndPoints Duenos
+ ### EndPoints Duenos  - Local Server
  * GET      localhost:3500/duenos/traer
  * GET      localhost:3500/duenos/crear    
  * DELETE   localhost:3500/duenos/borrar/{id_dueno}
  * PUT      localhost:3500/duenos/editar
 
  ### AWS Elastic Beanstalk (AWS EB) Remote Server
- Los endpoints para las solicitudes y respuestas son las mismas que en el servidor local
+ Los endpoints para las solicitudes y respuestas son las mismas que en el servidor local, solo se tiene que cambiar la parte inicial del link:
+ * GET      clinica-veterinaria-env.eba-yvmi4iey.us-east-2.elasticbeanstalk.com/mascotas/traer
+ * GET      clinica-veterinaria-env.eba-yvmi4iey.us-east-2.elasticbeanstalk.com/duenos/traer
+
+ Considere que en el buscador/brower unicamente se pueden ejecutar requests del tipo GET, si desea realizar otro tipo de request es necesario
+ utilizar Postman (POST, DELETE, PUT).
 
  ### Instalación
 
